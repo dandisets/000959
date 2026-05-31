@@ -29,8 +29,8 @@ assetsSummary:
   - SpatialSeries
   - EyeTracking
 citation: Chang, Steve (2026) Closed-loop microstimulations of the orbitofrontal cortex
-  during real-life gaze interaction enhance dynamic social attention (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000959/draft
+  during real-life gaze interaction enhance dynamic social attention (Version 0.260531.2104)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000959/0.260531.2104
 contributor:
 - affiliation: []
   email: stevewcc@gmail.com
@@ -40,6 +40,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2024-04-10T17:18:19.114740+00:00'
+datePublished: '2026-05-31T21:04:07.236505+00:00'
 description: These are the raw and processed data accompanying our manuscript "Closed-loop
   microstimulations of the orbitofrontal cortex during real-life gaze interaction
   enhance dynamic social attention". In this paradigm, two animals face each-other
@@ -50,16 +51,29 @@ description: These are the raw and processed data accompanying our manuscript "C
   positions and pupil sizes from each animal; the stimulation event times; the face
   and eye ROIs of each animal; and the multi-unit activity (MUA) and electrode information
   from the single electrode targeting the stimulated area.
-id: DANDI:000959/draft
+doi: 10.48324/dandi.000959/0.260531.2104
+id: DANDI:000959/0.260531.2104
 identifier: DANDI:000959
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000959/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000959/0.260531.2104/assets.yaml
 name: Closed-loop microstimulations of the orbitofrontal cortex during real-life gaze
   interaction enhance dynamic social attention
+publishedBy:
+  endDate: '2026-05-31T21:04:07.236505+00:00'
+  id: urn:uuid:921d28d8-67b2-4d0f-801a-80d1826195e9
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-05-31T21:04:07.236505+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:121de5ac-86b5-4073-aa9a-208ca7d3e6e7
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
-url: https://dandiarchive.org/dandiset/000959/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000959/0.260531.2104
+version: 0.260531.2104
