@@ -3,6 +3,13 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+about:
+- identifier: https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b13d
+  name: social cognition
+  schemaKey: GenericType
+- identifier: http://purl.obolibrary.org/obo/UBERON_0000451
+  name: prefrontal cortex
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -28,36 +35,117 @@ assetsSummary:
   variableMeasured:
   - SpatialSeries
   - EyeTracking
-citation: Chang, Steve (2026) Closed-loop microstimulations of the orbitofrontal cortex
-  during real-life gaze interaction enhance dynamic social attention (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000959/draft
+citation: Chang, Steve; Fan, Siqi; Dal Monte, Olga; Nair, Amrita R.; Fagan, Nicholas
+  (2026) Closed-loop microstimulations of the orbitofrontal cortex during real-life
+  gaze interaction enhance dynamic social attention (Version draft) [Data set]. DANDI
+  Archive. https://dandiarchive.org/dandiset/000959/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/03v76x132
+    name: Yale University
+    schemaKey: Affiliation
   email: stevewcc@gmail.com
+  identifier: 0000-0003-4160-7549
   includeInCitation: true
   name: Chang, Steve
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
   schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03v76x132
+    name: Yale University
+    schemaKey: Affiliation
+  identifier: 0000-0003-3101-108X
+  includeInCitation: true
+  name: Fan, Siqi
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03v76x132
+    name: Yale University
+    schemaKey: Affiliation
+  identifier: 0000-0002-7823-4769
+  includeInCitation: true
+  name: Dal Monte, Olga
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03v76x132
+    name: Yale University
+    schemaKey: Affiliation
+  identifier: 0000-0002-6563-7112
+  includeInCitation: true
+  name: Nair, Amrita R.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03v76x132
+    name: Yale University
+    schemaKey: Affiliation
+  identifier: 0009-0007-8468-7952
+  includeInCitation: true
+  name: Fagan, Nicholas
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- awardNumber: R01MH110750
+  identifier: https://ror.org/04xeg9z08
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01MH120081
+  identifier: https://ror.org/04xeg9z08
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01MH128190
+  identifier: https://ror.org/04xeg9z08
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-04-10T17:18:19.114740+00:00'
 description: These are the raw and processed data accompanying our manuscript "Closed-loop
   microstimulations of the orbitofrontal cortex during real-life gaze interaction
   enhance dynamic social attention". In this paradigm, two animals face each-other
   and freely gaze at one another while their gaze positions are continuously tracked
   in real-time. One animal ("M1") receives a low-amplitude microstimulation to one
-  of three brain areas (OFC, ACCg, and dmPFC) that is triggered stochastically upon
-  looking to their partner's eye-region. These data consist of the continuous gaze
-  positions and pupil sizes from each animal; the stimulation event times; the face
-  and eye ROIs of each animal; and the multi-unit activity (MUA) and electrode information
-  from the single electrode targeting the stimulated area.
+  of three prefrontal areas (OFC, ACCg, and dmPFC) that is triggered contingently
+  by specific gaze events, such as looking at the other animal's ("M2") eyes. These
+  data consist of the continuous gaze positions and pupil sizes from each animal;
+  the stimulation event times; and multiple gaze ROIs of each animal.
 id: DANDI:000959/draft
 identifier: DANDI:000959
+keywords:
+- closed-loop microstimulation
+- social gaze interaction
+- social attention
+- eye tracking
+- prefrontal cortex
+- orbitofrontal cortex
+- dorsomedial prefrontal cortex
+- anterior cingulate gyrus
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000959/versions/draft/assets/
 name: Closed-loop microstimulations of the orbitofrontal cortex during real-life gaze
   interaction enhance dynamic social attention
+relatedResource:
+- identifier: doi:10.1016/j.neuron.2024.05.004
+  name: Closed-loop microstimulations of the orbitofrontal cortex during real-life
+    gaze interaction enhance dynamic social attention
+  relation: dcite:IsDescribedBy
+  repository: Neuron
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1016/j.neuron.2024.05.004
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
